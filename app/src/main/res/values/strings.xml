@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Attendance Taker</string>
+    <string name="editMain">Editing</string>
+    <string name="statistics">Statistics</string>
+    <string name="AttendanceTVtext">Attendance</string>
+    <string name="enterClassName">Enter The Class Name</string>
+    <string name="CSEB">CSE B</string>
+    <string name="allclasses">All Classes</string>
+    <string name="insertSuccesToast">Insert Succesful</string>
+    <string name="setThis">SET THIS</string>
+    <string name="roll">15241A0590</string>
+    <string name="namestudentID">Devaraj Akhil</string>
+    <string name="enter_student_details">Enter Student Details</string>
+</resources>

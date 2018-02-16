@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.devarajakhil.attendance.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fiftydip"
+        android:text="@string/editMain"
+        android:padding="@dimen/twelvedip"
+        android:paddingLeft="@dimen/sixteendip"
+        android:textSize="@dimen/sixteenSP"
+        android:paddingStart="@dimen/sixteendip"
+        android:background="@color/DeepPurple"
+        android:textColor="@color/Black"
+        android:id="@+id/editTV"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fiftydip"
+        android:id="@+id/attendaceTV"
+        android:text="@string/AttendanceTVtext"
+        android:padding="@dimen/twelvedip"
+        android:paddingLeft="@dimen/sixteendip"
+        android:textSize="@dimen/sixteenSP"
+        android:paddingStart="@dimen/sixteendip"
+        android:background="@color/DeepPurple"
+        android:layout_below="@id/editTV"
+        android:textColor="@color/Black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fiftydip"
+        android:text="@string/statistics"
+        android:padding="@dimen/twelvedip"
+        android:paddingLeft="@dimen/sixteendip"
+        android:textSize="@dimen/sixteenSP"
+        android:paddingStart="@dimen/sixteendip"
+        android:layout_below="@id/attendaceTV"
+        android:background="@color/DeepPurple"
+        android:textColor="@color/Black"
+        android:id="@+id/statTV"/>
+
+</RelativeLayout>

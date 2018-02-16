@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_student_details"
+        android:textColor="@color/DeepPurple"
+        android:paddingLeft="@dimen/sixteendip"
+        android:paddingTop="@dimen/sixteendip"
+        android:paddingBottom="@dimen/sixteendip"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/studentNameED"
+        android:layout_margin="@dimen/eightdip"
+        android:paddingLeft="@dimen/sixteendip"
+        android:hint="@string/namestudentID"
+        android:paddingStart="@dimen/sixteendip" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/studentRollNoED"
+        android:layout_margin="@dimen/eightdip"
+        android:paddingLeft="@dimen/sixteendip"
+        android:hint="@string/roll"
+        android:paddingStart="@dimen/sixteendip" />
+
+</LinearLayout>
